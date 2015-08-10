@@ -79,7 +79,9 @@
 
 # Lesson 1
 
-`https://github.com/gruppjo/sae-webdev`
+```
+https://github.com/gruppjo/sae-webdev
+```
 
 ---
 
