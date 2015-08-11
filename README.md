@@ -1,5 +1,10 @@
 # sae-webdev
 
+## get repository
+```sh
+git clone git@github.com:gruppjo/sae-webdev.git
+```
+
 ## run slideshow
 
 ```

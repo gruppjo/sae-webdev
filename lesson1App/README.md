@@ -1,10 +1,5 @@
 # lesson 1 app
 
-## get repository
-```sh
-git clone git@github.com:gruppjo/sae-webdev.git
-```
-
 ## run
 ```sh
 npm install
