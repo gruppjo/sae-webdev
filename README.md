@@ -102,7 +102,7 @@ https://github.com/gruppjo/sae-webdev
 
 - serious dev platform, you can code:
 	- websites
-	- web & multimedia applications (3D, video, audio, realtime, ...)
+	- web & multimedia applications (3D, games, video, audio, realtime, ...)
 	- backends/middleware
 	- mobile apps (almost any platform)
 	- desktop apps
