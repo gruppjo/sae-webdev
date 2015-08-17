@@ -1,3 +1,8 @@
+# Lesson 1
+### Hello, HTML, CSS
+
+
+
 ## Agenda
 
 1. [Hello!](#hello)
@@ -76,7 +81,7 @@
 
 
 
-# Lesson 1
+# Lesson 1 - HTML, CSS
 
 ```
 https://github.com/gruppjo/sae-webdev
@@ -208,6 +213,14 @@ npm install --global bower gulp yo jshint generator-gulp-webapp
 
 ### JS
 
+- language characteristics
+- how to run in browser (mini example)
+
+- code academy
+	- js combined - https://www.codecademy.com/en/tracks/javascript-combined
+	- js original - https://www.codecademy.com/en/tracks/javascript-original
+	- angular.js - https://www.codecademy.com/courses/learn-angularjs?utm_campaign=new-lenv-promotion
+- js for sophisticated programmers - http://casual-effects.blogspot.de/2014/01/an-introduction-to-javascript-for.html
 - http://www.theodinproject.com/web-development-101/javascript-basics
 - http://hsablonniere.github.io/markleft/prezas/javascript-101.html#1.0
 - https://en.wikipedia.org/wiki/JavaScript#Features
