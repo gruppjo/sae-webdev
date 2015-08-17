@@ -47,6 +47,13 @@
   - at event (window.onload)
 
 
+## Hands-on
+
+```
+https://www.codecademy.com/en/tracks/javascript-combined
+```
+
+
 
 ## Resources
 - Video: best [introduction to JS](https://www.youtube.com/watch?v=v2ifWcnQs6M) by Douglas Crockford (inventor of [JSON](https://en.wikipedia.org/wiki/JSON))

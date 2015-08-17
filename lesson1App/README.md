@@ -2,6 +2,7 @@
 
 ## run
 ```sh
+# in directory
 npm install
 bower install
 gulp serve
