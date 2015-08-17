@@ -51,6 +51,12 @@
     <!-- endbuild -->
 
     <!-- build:js scripts/main.js -->
+    <script>
+      console.log('TEST - executed immediately');
+      window.onload = function () {
+        console.log('TEST - when page is finished loading');
+      };
+    </script>
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
   </body>
