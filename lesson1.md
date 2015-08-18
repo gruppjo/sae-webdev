@@ -1,3 +1,4 @@
+
 # Lesson 1
 ### Hello, HTML, CSS
 
@@ -198,15 +199,6 @@ npm install --global bower gulp yo jshint generator-gulp-webapp
 - codeacademy - [make a website](https://www.codecademy.com/skills/make-a-website)
 - experiment with the - [generator-gulp-webapp](https://github.com/yeoman/generator-gulp-webapp)
 
+## Resources
 
-
-## Discuss
-
-- Present:
-	- results
-	- learnings
-	- pitfalls
-
-
-
-## See you :)
+7hrs [HTML/CSS](https://www.codecademy.com/en/tracks/web) on code academy 

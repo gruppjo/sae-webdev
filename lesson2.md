@@ -57,8 +57,19 @@ Examples in:
 lesson2JS/app/index.html (starting line 54)
 ```
 
-- <script> tag
-- <script src="path/to/file">
+internal script:
+
+```
+  <script>
+  // code here
+  </scrip>
+```
+
+external script:
+
+```
+<script src="path/to/file"></scrip>
+```
 
 
 

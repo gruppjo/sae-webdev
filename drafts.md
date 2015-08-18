@@ -49,8 +49,9 @@ Expectations exam?
 ## Further learning
 - basics, basics, basics
 - mdn (HTML, CSS, JS) - https://developer.mozilla.org/en-US/
-- JS (see [lesson2](https://github.com/gruppjo/sae-webdev/blob/master/lesson2.md))
-- WebGL/Three.js/Phaser.io (see [lesson4](https://github.com/gruppjo/sae-webdev/blob/master/lesson2.md))
+- HTML (see [lesson1](lesson1.md))
+- JS (see [lesson2](lesson2.md))
+- WebGL/Three.js/Phaser.io (see [lesson4](lesson4.md))
 - HTML5
 	- on mdn - https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5
 	- html5rocks - http://www.html5rocks.com/de/

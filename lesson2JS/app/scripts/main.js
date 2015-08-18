@@ -114,6 +114,10 @@ window.onload = function () {
 
 var ooJS = function () {
   console.log('------- OOJS -----');
+  console.log('------- OBJECT LITERAL -----');
+  var obj = {}; // creates an OBJECT
+  obj = new Object(); // also creates an object
+
   console.log('------- FUNCTIONAL -----');
 
 
@@ -226,6 +230,21 @@ var awesomeness = function () {
   obj.changeName('bob');
   obj.sayName();
 
+
+  console.log('------- PSEUDOCLASSICAL PRIVACY -----');
+  var Person = function Person(first,last,age) {
+    this.firstname = first;
+    this.lastname = last;
+    this.age = age;
+    var bankBalance = 7500; // private
+
+    this.getBalance = function() {
+      // your code should return the bankBalance
+      return bankBalance;
+    };
+  };
+  var person = new Person('Jon', 'Doe', 25);
+  console.log(person.bankBalance, person.getBalance());
 
 
   console.log('------- DUCKTYPING -----');
