@@ -17,6 +17,7 @@
 
 - webgl examples
 	- bananabread https://developer.mozilla.org/de/demos/detail/bananabread
+	- unreal engine https://blog.mozilla.org/blog/2015/02/24/unreal-engine-4-7-binary-release-includes-html5-export-3/
 	- rome http://www.ro.me/
 	- piano http://touchpianist.com/
 	- globe https://www.chromeexperiments.com/globe
@@ -58,4 +59,6 @@
 - exam preparation
 - further learning
 	- basics, basics, basics
+	- angular.js
+	- html5rocks, codeacademy, udacity
 - feedback

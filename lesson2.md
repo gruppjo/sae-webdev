@@ -59,15 +59,17 @@ https://www.codecademy.com/en/tracks/javascript-combined
 
 
 ## Resources
+- Book: Douglas Crockford, [JavaScript the Good Parts](http://www.amazon.de/JavaScript-Parts-Working-Shallow-Grain/dp/0596517742)  
 - Mozilla Developer Network (mdn)
   - [js intro](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
   - [object oriented js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
   - [inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+- other important sites
+  - caniuse - http://caniuse.com/
+  - stackoverflow - http://stackoverflow.com/
 - videos
   - best [introduction to JS](https://www.youtube.com/watch?v=v2ifWcnQs6M) by Douglas Crockford (inventor of [JSON](https://en.wikipedia.org/wiki/JSON))
   - [part 2](https://www.youtube.com/watch?v=Y2Y0U-2qJMs)
   - [part 3](https://www.youtube.com/watch?v=DwYPG6vreJg)
   - [code as craft video](http://original.livestream.com/etsy/video?clipId=pla_1463e546-47ed-4a93-b59a-bd52b236e8b8) by Douglas Crockford
-- Website:
-- Video: brief [video history](https://brendaneich.com/2010/07/a-brief-history-of-javascript/) by Brendan Eich (creator of JS)
-- Book: Douglas Crockford, [JavaScript the Good Parts](http://www.amazon.de/JavaScript-Parts-Working-Shallow-Grain/dp/0596517742)  
+  - brief [history](https://brendaneich.com/2010/07/a-brief-history-of-javascript/) by Brendan Eich (creator of JS)
