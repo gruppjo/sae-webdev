@@ -28,19 +28,13 @@
 
 1. WebGL on [mdn](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)
 2. [tutorial](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial) on mdn
-3. choose one
-  - [learning webgl](http://learningwebgl.com/blog/?page_id=1217) skip lesson 0
-  - [webgl fundamentals](http://webglfundamentals.org/)
+3.[learning webgl](http://learningwebgl.com/blog/?page_id=1217) lesson 1-3
 
 
 
 ## Three.js Hands-on
 
-1. choose one
-  - tutsplus [threejs](http://code.tutsplus.com/tutorials/webgl-with-threejs-basics--net-35688)
-  - threejs [docs](http://threejs.org/docs/#Manual/Introduction/Creating_a_scene)
-  - aerotwist [threejs](https://aerotwist.com/tutorials/getting-started-with-three-js/)
-  - treehouse [threejs](http://blog.teamtreehouse.com/the-beginners-guide-to-three-js)
+1. tutsplus [threejs](http://code.tutsplus.com/tutorials/webgl-with-threejs-basics--net-35688)
 
 
 
@@ -52,8 +46,16 @@
 
 
 ## More Resources
+- more webgl
+ - [learning webgl](http://learningwebgl.com/blog/?page_id=1217)
+ - [webgl fundamentals](http://webglfundamentals.org/)
+- more threejs
+  - threejs [docs](http://threejs.org/docs/#Manual/Introduction/Creating_a_scene)
+  - aerotwist [threejs](https://aerotwist.com/tutorials/getting-started-with-three-js/)
+  - treehouse [threejs](http://blog.teamtreehouse.com/the-beginners-guide-to-three-js)
 - shaders
   - aerotwist [shaders](https://aerotwist.com/tutorials/an-introduction-to-shaders-part-1/)
   - lighthouse3d [glsl core](http://www.lighthouse3d.com/tutorials/glsl-tutorial/glsl-core-tutorial-index/)
-- udacity [webgl](https://www.udacity.com/course/interactive-3d-graphics--cs291)
-- coursera [webgl](https://www.coursera.org/course/webgl)
+- full webgl courses
+  - udacity [webgl](https://www.udacity.com/course/interactive-3d-graphics--cs291)
+  - coursera [webgl](https://www.coursera.org/course/webgl)
