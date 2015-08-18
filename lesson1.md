@@ -174,8 +174,8 @@ npm install --global bower gulp yo jshint generator-gulp-webapp
 ## Basics
 
 - Technologies:
-	- HTML = structure and content
-	- CSS = style and appearance
+	- HTML (Hypertext Markup Language) = structure and content
+	- CSS (Cascading Style Sheet) = style and appearance
 	- JavaScript = behavior
 
 
@@ -183,7 +183,7 @@ npm install --global bower gulp yo jshint generator-gulp-webapp
 ## Basics
 
 - Ecosystem:
-	- node.js = JavaScript outside the browser
+	- node.js = JavaScript runtime environment outside the browser
 	- npm = node package manager (install/distribute awesome stuff)
 	- [bower](http://bower.io/) = browser package manager (jQuery, ...)
 	- [gulp](http://gulpjs.com/) / [grunt](http://gruntjs.com/) = task runner

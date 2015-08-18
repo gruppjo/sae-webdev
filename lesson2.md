@@ -41,12 +41,24 @@
 
 ## Execution
 
-- in the node console `node`
-- as node script `node myscript.js`
+- in the node console. Type: `node`
+- as node script. Type `node myscript.js`
 - in the browser
   - in the console (open developer tools)
-  - at parse time (see `lesson2JS/app/index.html`)
-  - at event (see `lesson2JS/app/index.html`)
+  - at parse time (see `lesson2JS/app/index.html line 55`)
+  - at event (see `lesson2JS/app/index.html line 56`)
+
+
+
+## Including scripts in HTML
+
+Examples in:
+```
+lesson2JS/app/index.html (starting line 54)
+```
+
+- <script> tag
+- <script src="path/to/file">
 
 
 
@@ -61,9 +73,8 @@ https://www.codecademy.com/en/tracks/javascript-combined
 ## Resources
 - Book: Douglas Crockford, [JavaScript the Good Parts](http://www.amazon.de/JavaScript-Parts-Working-Shallow-Grain/dp/0596517742)  
 - Mozilla Developer Network (mdn)
-  - [js intro](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
-  - [object oriented js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)
-  - [inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+  - [reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript) for JavaScript, CSS, HTML
+  - [js intro](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript), [object oriented js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript), [inheritance](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 - other important sites
   - caniuse - http://caniuse.com/
   - stackoverflow - http://stackoverflow.com/

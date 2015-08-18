@@ -1,23 +1,11 @@
 
 ## Next lessons
 
-### JS
-
-- code academy
-	- js combined - https://www.codecademy.com/en/tracks/javascript-combined
-	- js original - https://www.codecademy.com/en/tracks/javascript-original
-	- angular.js - https://www.codecademy.com/courses/learn-angularjs?utm_campaign=new-lenv-promotion
-- js for sophisticated programmers - http://casual-effects.blogspot.de/2014/01/an-introduction-to-javascript-for.html
-- http://www.theodinproject.com/web-development-101/javascript-basics
-- http://hsablonniere.github.io/markleft/prezas/javascript-101.html#1.0
-- https://en.wikipedia.org/wiki/JavaScript#Features
-- thesis
 
 ### WebGL/Three.js/Phaser.io
 
 - webgl examples
 	- bananabread https://developer.mozilla.org/de/demos/detail/bananabread
-	- unreal engine https://blog.mozilla.org/blog/2015/02/24/unreal-engine-4-7-binary-release-includes-html5-export-3/
 	- rome http://www.ro.me/
 	- piano http://touchpianist.com/
 	- globe https://www.chromeexperiments.com/globe
@@ -41,24 +29,43 @@
 - canvas examples
 	- cross code - http://www.cross-code.com/en/start
 	- curious expedition - http://www.curious-expedition.com/
-- webgl
-	- webglfundamentals - http://webglfundamentals.org/
-	- learningwebgl - http://learningwebgl.com/blog/?page_id=1217
-	- coursera webgl - https://www.coursera.org/course/webgl
-	- glsl core - http://www.lighthouse3d.com/2012/02/glsl-core-tutorial/
-	- aerotwists shaders - https://aerotwist.com/tutorials/an-introduction-to-shaders-part-1/
-- three.js
-	- three.js docs - http://threejs.org/docs/#Manual/Introduction/Creating_a_scene
-	- aerotwist https://aerotwist.com/tutorials/getting-started-with-three-js/
-	- treehouse - http://blog.teamtreehouse.com/the-beginners-guide-to-three-js
-	- tutsplus - http://code.tutsplus.com/tutorials/webgl-with-threejs-basics--net-35688
-- phaser.io
-	- http://phaser.io/
 
-### Aug 25
-- exam preparation
-- further learning
-	- basics, basics, basics
-	- angular.js
-	- html5rocks, codeacademy, udacity
-- feedback
+# Lesson 5
+
+
+
+## Exam preparation
+
+Expectations exam?
+
+- completed [make a website](https://www.codecademy.com/skills/make-a-website)
+- completed at least the following sections of [javascript-combined](https://www.codecademy.com/en/tracks/javascript-combined)
+  - Data Structures - Arrays and Objects in JS
+  - Objects I - Introduction to Objects I
+  - Objects II - Introduction to Objects II
+- especially look at slides / examples!
+
+
+## Further learning
+- basics, basics, basics
+- mdn (HTML, CSS, JS) - https://developer.mozilla.org/en-US/
+- JS (see [lesson2](https://github.com/gruppjo/sae-webdev/blob/master/lesson2.md))
+- WebGL/Three.js/Phaser.io (see [lesson4](https://github.com/gruppjo/sae-webdev/blob/master/lesson2.md))
+- HTML5
+	- on mdn - https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5
+	- html5rocks - http://www.html5rocks.com/de/
+- codeacademy - https://www.codecademy.com/learn
+- udacity - https://www.udacity.com/courses/all
+	- nanodegrees are not free (do courses!)
+- angular.js - https://www.codecademy.com/courses/learn-angularjs
+
+
+
+## Feedback
+
+- Learning?
+- Fun?
+- Structure/Project?
+- Lectures?
+- Exercises?
+- Anything else?
