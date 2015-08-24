@@ -18,6 +18,7 @@ Expectations exam?
 
 
 ## Further learning
+- work with the content of the lecture on - https://github.com/gruppjo/sae-webdev
 - basics!
 - practice, practice, practice!
 - mdn (HTML, CSS, JS) - https://developer.mozilla.org/en-US/
