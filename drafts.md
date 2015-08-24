@@ -47,7 +47,8 @@ Expectations exam?
 
 
 ## Further learning
-- basics, basics, basics
+- basics!
+- practice, practice, practice!
 - mdn (HTML, CSS, JS) - https://developer.mozilla.org/en-US/
 - HTML (see [lesson1](lesson1.md))
 - JS (see [lesson2](lesson2.md))

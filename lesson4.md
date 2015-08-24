@@ -28,7 +28,7 @@
 
 1. WebGL on [mdn](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)
 2. [tutorial](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial) on mdn
-3.[learning webgl](http://learningwebgl.com/blog/?page_id=1217) lesson 1-3
+3. [learning webgl](http://learningwebgl.com/blog/?page_id=1217) lesson 1-3
 
 
 
