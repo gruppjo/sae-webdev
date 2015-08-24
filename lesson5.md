@@ -38,9 +38,15 @@ Expectations exam?
 
 ## Feedback
 
-- Learning?
-- Fun?
-- Structure/Project?
-- Lectures?
-- Exercises?
+- Learning
+  - Knowledge?
+  - Fun?
+  - Enablement?
+- Content
+  - HTML/CSS
+  - JS
+  - WebGL/Three.js/Phaser.io
+- Structure
+  - Exercises?
+  - Lectures?
 - Anything else?
