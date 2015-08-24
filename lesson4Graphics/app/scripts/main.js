@@ -20,6 +20,8 @@ var yIncValue = -0.4;
 var zIncValue = 0.3;
 
 function start () {
+
+  // get the canvas element via JS
   var canvas = document.getElementById('glcanvas');
 
   gl = initWebGL(canvas); // Initialize the GL context
@@ -59,7 +61,7 @@ var initShaders = function () {
   var fragmentShader = getShader(gl, 'shader-fs');
   var vertexShader = getShader(gl, 'shader-vs');
 
-  // Create the shader program
+  // Create & link the shader program
   shaderProgram = gl.createProgram();
   gl.attachShader(shaderProgram, vertexShader);
   gl.attachShader(shaderProgram, fragmentShader);
@@ -69,8 +71,10 @@ var initShaders = function () {
     alert('Unable to initialize the shader program');
   }
 
+  // tell WebGL to use the program we just created
   gl.useProgram(shaderProgram);
 
+  // tell WebGL to expect shader attributes aVertexPosition and aVertexColor
   vertexPositionAttribute = gl.getAttribLocation(shaderProgram, 'aVertexPosition');
   gl.enableVertexAttribArray(vertexPositionAttribute);
   vertexColorAttribute = gl.getAttribLocation(shaderProgram, 'aVertexColor');
@@ -80,12 +84,16 @@ var initShaders = function () {
 var getShader = function (gl, id) {
   var shaderScript, theSource, currentChild, shader;
 
+  // retrieve the script element via ID
   shaderScript = document.getElementById(id);
 
   if (!shaderScript) {
+    console.warn('shader script not found');
     return null;
   }
 
+
+  // iterate over text nodes to retrieve shader code
   theSource = '';
   currentChild = shaderScript.firstChild;
 
@@ -97,6 +105,7 @@ var getShader = function (gl, id) {
     currentChild = currentChild.nextSibling;
   }
 
+  // decide which type of shader we are creating
   if (shaderScript.type == "x-shader/x-fragment") {
     shader = gl.createShader(gl.FRAGMENT_SHADER);
   } else if (shaderScript.type == "x-shader/x-vertex") {
@@ -121,6 +130,7 @@ var getShader = function (gl, id) {
 };
 
 function initBuffers() {
+  // create vertices buffer to fill with data
   squareVerticesBuffer = gl.createBuffer();
   gl.bindBuffer(gl.ARRAY_BUFFER, squareVerticesBuffer);
 
@@ -131,6 +141,7 @@ function initBuffers() {
     -1.0, -1.0, 0.0
   ];
 
+  // fill buffer with data
   gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(vertices), gl.STATIC_DRAW);
 
   var colors = [
@@ -140,6 +151,7 @@ function initBuffers() {
     0.0,  0.0,  1.0,  1.0     // blue
   ];
 
+  // create & fill color buffer with data
   squareVerticesColorBuffer = gl.createBuffer();
   gl.bindBuffer(gl.ARRAY_BUFFER, squareVerticesColorBuffer);
   gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(colors), gl.STATIC_DRAW);
@@ -148,19 +160,27 @@ function initBuffers() {
 function drawScene() {
   gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
 
+  // define field of view, aspect ratio (as in canvas element)
+  // distance from camera (min, max)
   perspectiveMatrix = makePerspective(45, 640.0 / 480.0, 0.1, 100.0);
 
-  loadIdentity();
-  mvTranslate([-0.0, 0.0, -6.0]);
+  // apply matrix transformations for 'camera', and object transformations
+  loadIdentity(); // load identity matrix
+  mvTranslate([0.0, 0.0, -6.0]); // translate z axis for camera
   mvPushMatrix();
   mvRotate(squareRotation, [1, 0, 1]);
   mvTranslate([squareXOffset, squareYOffset, squareZOffset]);
 
+  // bind buffers which are now filled and tell WebGL to use them as input
+  // to the shaders
   gl.bindBuffer(gl.ARRAY_BUFFER, squareVerticesBuffer);
   gl.vertexAttribPointer(vertexPositionAttribute, 3, gl.FLOAT, false, 0, 0);
   gl.bindBuffer(gl.ARRAY_BUFFER, squareVerticesColorBuffer);
   gl.vertexAttribPointer(vertexColorAttribute, 4, gl.FLOAT, false, 0, 0);
+  // supply shaders with matrices
   setMatrixUniforms();
+
+  // draw the arrays
   gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
 
   mvPopMatrix();
