@@ -60,4 +60,19 @@ Expectations exam?
 
 
 
+## Feedback
+- viele resourcen
+- available online
+- too many tutorials (one complete project)
+  - no copy paste
+  - solve own problems
+- mehr vorlesung
+  - basics
+  - step through tutorial together (what's happening at each step)!
+
+- cli/git/github workshop
+- XAML, VS, .NET, C#
+
+
+
 ## Thanks :)
