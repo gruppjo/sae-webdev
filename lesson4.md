@@ -41,6 +41,8 @@
 ## Phaser.io Hands-on
 
 1. phaser.io [website](http://phaser.io/learn)
+2. [phaser-generator](https://github.com/julien/generator-phaser)
+3. [making your first phaser game](http://phaser.io/tutorials/making-your-first-phaser-game)
 2. Start with 'Getting started'
 
 

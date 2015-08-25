@@ -17,14 +17,18 @@ Expectations exam?
 
 
 
-## Further learning
-- work with the content of the lecture on - https://github.com/gruppjo/sae-webdev
+## Further learning I
+- work with the content of the lecture - https://github.com/gruppjo/sae-webdev
 - basics!
 - practice, practice, practice!
-- mdn (HTML, CSS, JS) - https://developer.mozilla.org/en-US/
 - HTML (see [lesson1](lesson1.md))
 - JS (see [lesson2](lesson2.md))
 - WebGL/Three.js/Phaser.io (see [lesson4](lesson4.md))
+- [Mozilla Developer Network](https://developer.mozilla.org/en-US/) (HTML, CSS, JS)
+
+
+
+## Further learning II
 - HTML5
 	- on mdn - https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5
 	- html5rocks - http://www.html5rocks.com/de/
@@ -51,3 +55,7 @@ Expectations exam?
   - Exercises?
   - Lectures?
 - Anything else?
+
+
+
+## Thanks :)
