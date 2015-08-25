@@ -28,7 +28,7 @@
 
 1. WebGL on [mdn](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)
 2. [tutorial](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial) on mdn
-3. [learning webgl](http://learningwebgl.com/blog/?page_id=1217) lesson 1-3
+3. ([learning webgl](http://learningwebgl.com/blog/?page_id=1217) lesson 1-3)
 
 
 
@@ -43,7 +43,7 @@
 1. phaser.io [website](http://phaser.io/learn)
 2. [phaser-generator](https://github.com/julien/generator-phaser)
 3. [making your first phaser game](http://phaser.io/tutorials/making-your-first-phaser-game)
-2. Start with 'Getting started'
+3. [snake tutorial](http://tutorialzine.com/2015/06/making-your-first-html5-game-with-phaser/)
 
 
 

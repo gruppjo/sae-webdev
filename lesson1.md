@@ -159,6 +159,16 @@ npm install --global bower gulp yo jshint generator-gulp-webapp
 ```
 
 
+## Setup
+Atom configuration (JS Stylechecks)
+
+```
+npm install --global eslint
+apm install linter
+apm install linter-jshint
+```
+
+
 
 ## Troubleshooting
 - errors (ECMDERR) when running bower install [here](http://stackoverflow.com/questions/21789683/howto-fix-bower-ecmderr)
@@ -201,4 +211,4 @@ npm install --global bower gulp yo jshint generator-gulp-webapp
 
 ## Resources
 
-7hrs [HTML/CSS](https://www.codecademy.com/en/tracks/web) on code academy 
+7hrs [HTML/CSS](https://www.codecademy.com/en/tracks/web) on code academy
