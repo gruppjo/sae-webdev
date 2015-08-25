@@ -159,6 +159,7 @@ npm install --global bower gulp yo jshint generator-gulp-webapp
 ```
 
 
+
 ## Setup
 Atom configuration (JS Stylechecks)
 
@@ -208,6 +209,8 @@ apm install linter-jshint
 
 - codeacademy - [make a website](https://www.codecademy.com/skills/make-a-website)
 - experiment with the - [generator-gulp-webapp](https://github.com/yeoman/generator-gulp-webapp)
+
+
 
 ## Resources
 

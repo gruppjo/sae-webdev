@@ -32,10 +32,12 @@ Expectations exam?
 - HTML5
 	- on mdn - https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5
 	- html5rocks - http://www.html5rocks.com/de/
+- JS Frameworks
+  - jQuery - https://www.codecademy.com/tracks/jquery
+  - angular.js - https://www.codecademy.com/courses/learn-angularjs
 - codeacademy - https://www.codecademy.com/learn
 - udacity - https://www.udacity.com/courses/all
 	- nanodegrees are not free (do courses!)
-- angular.js - https://www.codecademy.com/courses/learn-angularjs
 - Browsers
   - how browsers work - http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
 
