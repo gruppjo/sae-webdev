@@ -25,6 +25,7 @@ Expectations exam?
 - JS (see [lesson2](lesson2.md))
 - WebGL/Three.js/Phaser.io (see [lesson4](lesson4.md))
 - [Mozilla Developer Network](https://developer.mozilla.org/en-US/) (HTML, CSS, JS)
+- [Google Developers](https://developers.google.com/web/)
 
 
 
