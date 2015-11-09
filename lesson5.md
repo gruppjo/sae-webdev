@@ -64,15 +64,16 @@ Expectations exam?
 ## Feedback
 - viele resourcen
 - available online
+- auch mit anderer Software Probleme (installation nicht, aber halt nachher)
 - too many tutorials (one complete project)
   - no copy paste
   - solve own problems
 - mehr vorlesung
-  - basics
+  - gerade bei den basics
+  - step through examples together (just like you did in the JS part)
   - step through tutorial together (what's happening at each step)!
-
 - cli/git/github workshop
-- XAML, VS, .NET, C#
+- Vorwissen: XAML, VS, .NET, C#
 
 
 
