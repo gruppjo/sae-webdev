@@ -1,3 +1,4 @@
 {
-  "transition": "fade"
+  "transition": "fade",
+  "progress": "true"
 }

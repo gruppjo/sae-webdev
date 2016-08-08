@@ -1,4 +1,4 @@
-# SAE Web Development 2015
+# SAE Web Development 2016
 
 ## get repository
 ```sh
@@ -9,7 +9,7 @@ git clone git@github.com:gruppjo/sae-webdev.git
 
 ```
 npm install -g reveal-md
-reveal-md lessonX.md --separator "^\n\n\n"
+reveal-md --theme solarized
 ```
 
 ## run examples

@@ -1,6 +1,6 @@
 # Lesson 5
 
-
+---
 
 ## Exam preparation
 
@@ -14,8 +14,7 @@ Expectations exam?
 - especially look at slides, examples & tutorials!
 - completed Mozilla WebGL [tutorial](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial) at least up until 'Animating objects with WebGL'
 
-
-
+---
 
 ## Further learning I
 - work with the content of the lecture - https://github.com/gruppjo/sae-webdev
@@ -27,7 +26,7 @@ Expectations exam?
 - [Mozilla Developer Network](https://developer.mozilla.org/en-US/) (HTML, CSS, JS)
 - [Google Developers](https://developers.google.com/web/)
 
-
+---
 
 ## Further learning II
 - HTML5
@@ -42,7 +41,7 @@ Expectations exam?
 - Browsers
   - how browsers work - http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
 
-
+---
 
 ## Feedback
 
@@ -57,9 +56,12 @@ Expectations exam?
 - Structure
   - Exercises?
   - Lectures?
+- Lecturer
+  - Motivation
+  - Clarity
 - Anything else?
 
-
+---
 
 ## Feedback
 - viele resourcen
@@ -75,6 +77,6 @@ Expectations exam?
 - cli/git/github workshop
 - Vorwissen: XAML, VS, .NET, C#
 
-
+---
 
 ## Thanks :)

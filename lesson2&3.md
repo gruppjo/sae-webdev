@@ -1,14 +1,14 @@
-# Lesson 2
+# Lesson 2 & 3
 ### JavaScript
 
-
+---
 
 ## What is JavaScript
 
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) (implementation)
 - [ECMAScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources) (standard, currently ES5/6)
 
-
+---
 
 ## Features
 
@@ -22,7 +22,7 @@
 - quirks
   - three equals
 
-
+---
 
 ## More features
 
@@ -37,7 +37,7 @@
   - implement ducktyping (fireize)
 - => much more sophisticated than other languages
 
-
+---
 
 ## Execution
 
@@ -48,7 +48,7 @@
   - at parse time (see `lesson2JS/app/index.html line 55`)
   - at event (see `lesson2JS/app/index.html line 56`)
 
-
+---
 
 ## Including scripts in HTML
 
@@ -71,7 +71,7 @@ external script:
 <script src="path/to/file"></scrip>
 ```
 
-
+---
 
 ## Hands-on
 
@@ -79,7 +79,7 @@ external script:
 https://www.codecademy.com/en/tracks/javascript-combined
 ```
 
-
+---
 
 ## Resources
 - Book: Douglas Crockford, [JavaScript the Good Parts](http://www.amazon.de/JavaScript-Parts-Working-Shallow-Grain/dp/0596517742)  

@@ -1,9 +1,9 @@
-
-## Next lessons
-
-
 ### WebGL/Three.js/Phaser.io
-
+- rainforest - http://rainforest.arkivert.no/#kart
+- collections
+	- css design awards - http://www.cssdesignawards.com/articles/30-best-webgl-sites-for-2015/263/
+	- hongkiat - http://www.hongkiat.com/blog/webgl-chrome-experiments/
+	- css nectar - http://cssnectar.com/css-gallery/nominees/site-features/webgl/
 - webgl examples
 	- bananabread https://developer.mozilla.org/de/demos/detail/bananabread
 	- rome http://www.ro.me/
@@ -18,6 +18,7 @@
 	- orbits visualizer http://iacopoapps.appspot.com/hopalongwebgl/
 	- particles http://oos.moxiecode.com/js_webgl/particles_morph/
 	- particles (firefox) http://empaempa.github.io/GLOW/examples/complicated/
+	- more particles - http://iacopoapps.appspot.com/hopalongwebgl/
 	- surface http://lab.aerotwist.com/webgl/surface/
 	- cars http://alteredqualia.com/three/examples/materials_cars.html
 	- ecosphere http://www.stinkdigital.com/work/ecosphere/

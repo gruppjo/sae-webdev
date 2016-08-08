@@ -2,7 +2,7 @@
 # Lesson 1
 ### Hello, HTML, CSS
 
-
+---
 
 ## Agenda
 
@@ -12,63 +12,64 @@
 4. [Agreements](#agreements)
 4. [Lesson 1](#lesson-1)
 
-
+---
 
 ## Hello
 
-- Jonathan Grupp / 25yrs
+- Jonathan Grupp / 26yrs
+	- [github.com/gruppjo](http://github.com/gruppjo)
+	- [twitter.com/jonathangrupp](https://twitter.com/JonathanGrupp)
 - Bachelor of Science (Applied Computer Science) IBM/DHBW Stuttgart 2012
 - mainly web/mobile development
-	- [github.com/gruppjo](http://github.com/gruppjo)
-	- [jonathangrupp.com](http://jonathangrupp.com)
-- what else?
+	- [generator-m-ionic](https://github.com/mwaylabs/generator-m-ionic)
+- about me
 
-
+---
 
 ## Who are you?
 
-- name / age
-- education / profession
-- personal goals
-- private life
+- name & age
+- education & background
+- personal & professional goals
+- tell us about yourself
 
-
+---
 
 ## Expectations
 
-
+---
 
 ## You
 
-- development experience
-	- web, c++/c/c#/java, opengl, python, ...
-- expectations
+- your development experience?
+	- web, c++/c/c#/java, OO, unity, maths&physics, opengl/directx, shaders, ...
+- your expectations
 - web dev terms => mindmap
 
-
+---
 
 ## Me
 
 1. fun :)
 2. teach you how to teach yourself
-3. play & experiment
+3. hands-on: play & experiment
 
-
+---
 
 ## Roadmap
-- aug 11 - basic webdev
+- aug 9 - basic webdev
 	- html(5)
 	- css(3)
 	- js (es3/5/6)
-- aug 17 - advanced webdev html/css/js
-- aug 18 - 3D
+- aug 10 - advanced webdev html/css/js
+- aug 11 - 3D
 	- webgl
 	- three.js
 	- phaser.io
-- aug 24 - more 3D
-- aug 25 - even more 3D / exam
+- aug 17 - more 3D
+- aug 18 - even more 3D / exam
 
-
+---
 
 ## Agreements
 
@@ -80,7 +81,7 @@
 - questions & ideas welcome
 - play, don't waste
 
-
+---
 
 # Lesson 1 - HTML, CSS
 
@@ -88,7 +89,7 @@
 https://github.com/gruppjo/sae-webdev
 ```
 
-
+---
 
 ## Why Web?
 
@@ -97,9 +98,10 @@ https://github.com/gruppjo/sae-webdev
 - run on every device with a browser, and many more...
 - backend & flexible UIs
 - from small hack to large scale applications
-- the whole ecosystem is JavaScript
+- the whole ecosystem is JavaScrip
+- [Github](https://github.com/): almost everything's open source
 
-
+---
 
 ## Why Web?
 
@@ -113,16 +115,19 @@ https://github.com/gruppjo/sae-webdev
 	- desktop apps
 	- command line tools (via node and npm)
 	- ...
-- more [info](http://www.sitepoint.com/whats-best-programming-language-learn-2015/)
+- more info
+	- article: [best programming languages](http://www.sitepoint.com/whats-best-programming-language-learn-2015/)
+	- [tiobe index](http://www.tiobe.com/tiobe-index/)
 
 
+---
 
 ## Why not?
 - [performance!](https://attractivechaos.github.io/plb/) (pretty fast but still not compiled)
 - security/reliability (business applications)
 	- a lot you can do wrong, no compiler, ...
 
-
+---
 
 ### Why not?
 
@@ -131,7 +136,7 @@ Compilation vs. Interpretation
 <img src="https://cloud.githubusercontent.com/assets/1370779/9197708/f1ab2e9a-4036-11e5-9ea4-c4049a38984a.jpg" height="400px"><br>
 Begriffe: Interpreter, Compiler, Just in Time Compilation, Assembler, Instruction Set
 
-
+---
 
 ## Setup
 
@@ -142,7 +147,7 @@ Begriffe: Interpreter, Compiler, Just in Time Compilation, Assembler, Instructio
 	- [atom](https://atom.io/) (free, open source, web technologies)
 	- [sublime](http://www.sublimetext.com/3) (free, closed, c)
 
-
+---
 
 ## Setup
 
@@ -158,7 +163,7 @@ Begriffe: Interpreter, Compiler, Just in Time Compilation, Assembler, Instructio
 npm install --global bower gulp yo jshint generator-gulp-webapp
 ```
 
-
+---
 
 ## Setup
 Atom configuration (JS Stylechecks)
@@ -169,7 +174,7 @@ apm install linter
 apm install linter-jshint
 ```
 
-
+---
 
 ## Troubleshooting
 - errors (ECMDERR) when running bower install [here](http://stackoverflow.com/questions/21789683/howto-fix-bower-ecmderr)
@@ -180,8 +185,7 @@ apm install linter-jshint
 	- run npm install
 - error with msbuild [here](https://github.com/TooTallNate/node-gyp/issues/168)
 
-
-
+---
 
 ## Basics
 
@@ -190,7 +194,7 @@ apm install linter-jshint
 	- CSS (Cascading Style Sheet) = style and appearance
 	- JavaScript = behavior
 
-
+---
 
 ## Basics
 
@@ -203,14 +207,14 @@ apm install linter-jshint
 	- [generator-gulp-webapp](https://github.com/yeoman/generator-gulp-webapp) = boilerplate for web application
 	- [jshint](http://jshint.com/) = enforce code styles
 
-
+---
 
 ## Hands-on
 
 - codeacademy - [make a website](https://www.codecademy.com/skills/make-a-website)
 - experiment with the - [generator-gulp-webapp](https://github.com/yeoman/generator-gulp-webapp)
 
-
+---
 
 ## Resources
 

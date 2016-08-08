@@ -1,7 +1,7 @@
 # Lesson 4
 ### WebGL/Three.js/Phaser.io
 
-
+---
 
 ## By now you should have
 - completed [make a website](https://www.codecademy.com/skills/make-a-website)
@@ -10,7 +10,7 @@
   - Objects I - Introduction to Objects I
   - Objects II - Introduction to Objects II
 
-
+---
 
 ## WebGL
 
@@ -22,7 +22,7 @@
   - based on [OpenGL ES 2.0](https://en.wikipedia.org/wiki/OpenGL_ES#OpenGL_ES_2.0)
   - which is based on OpenGL 2.0 / 3.1 (programmable rendering pipeline)
 
-
+---
 
 ## WebGL Hands-on
 
@@ -30,13 +30,13 @@
 2. [tutorial](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial) on mdn
 3. ([learning webgl](http://learningwebgl.com/blog/?page_id=1217) lesson 1-3)
 
-
+---
 
 ## Three.js Hands-on
 
 1. tutsplus [threejs](http://code.tutsplus.com/tutorials/webgl-with-threejs-basics--net-35688)
 
-
+---
 
 ## Phaser.io Hands-on
 
@@ -45,7 +45,7 @@
 3. [making your first phaser game](http://phaser.io/tutorials/making-your-first-phaser-game)
 3. [snake tutorial](http://tutorialzine.com/2015/06/making-your-first-html5-game-with-phaser/)
 
-
+---
 
 ## More Resources
 - more webgl
