@@ -1,6 +1,6 @@
 
 # Lesson 1
-### Hello, HTML, CSS
+#### Hello, HTML, CSS
 
 ---
 
@@ -42,9 +42,11 @@
 ## You
 
 - your development experience?
-	- web, c++/c/c#/java, OO, unity, maths&physics, opengl/directx, shaders, ...
+	- web? Git/GitHub? Testing?
+	- other: c++/c/c#/java, OO, unity, maths&physics, opengl/directx, shaders, ...
+- English?
 - your expectations
-- web dev terms => mindmap
+- web dev terms? => mindmap
 
 ---
 
@@ -57,29 +59,17 @@
 ---
 
 ## Roadmap
-- aug 9 - basic webdev
-	- html(5)
-	- css(3)
-	- js (es3/5/6)
-- aug 10 - advanced webdev html/css/js
-- aug 11 - 3D
-	- webgl
-	- three.js
-	- phaser.io
-- aug 17 - more 3D
-- aug 18 - even more 3D / exam
+- lesson 1 through 3: HTML, CSS, JavaScript
+- lesson 4, 5: WebGL, Three.js, Phaser.io
 
 ---
 
 ## Agreements
 
-- structure (roughly)
-	- 1h lecture
-	- 2.5h play & experiment
-	- 1.5h presentation & discussion
+- small lectures, a lot of hands-on
 - breaks?
-- questions & ideas welcome
-- play, don't waste
+- interrupt at any time: questions & ideas welcome
+- complain, don't waste
 
 ---
 
@@ -88,36 +78,34 @@
 ```
 https://github.com/gruppjo/sae-webdev
 ```
+![QR Code](https://cloud.githubusercontent.com/assets/1370779/17484680/56889c4a-5d8b-11e6-81ab-351c07b52edd.jpeg)
 
 ---
 
 ## Why Web?
 
-### HTML, CSS, JavaScript:
+#### HTML, CSS, JavaScript:
 
 - run on every device with a browser, and many more...
 - backend & flexible UIs
 - from small hack to large scale applications
-- the whole ecosystem is JavaScrip
+- the whole ecosystem is JavaScript (this presentation, editors, CLI tools, ...)
 - [Github](https://github.com/): almost everything's open source
 
 ---
 
 ## Why Web?
 
-### HTML, CSS, JavaScript:
-
-- serious dev platform, you can code:
-	- websites
-	- web & multimedia applications (3D, games, video, audio, realtime, ...)
-	- backends/middleware
-	- mobile apps (almost any platform)
-	- desktop apps
-	- command line tools (via node and npm)
-	- ...
-- more info
-	- article: [best programming languages](http://www.sitepoint.com/whats-best-programming-language-learn-2015/)
-	- [tiobe index](http://www.tiobe.com/tiobe-index/)
+#### Dev platform of the future:
+- websites
+- web & multimedia applications (3D, games, video, audio, realtime, ...)
+- backends/middleware
+- mobile apps
+- desktop apps
+- command line tools (via node and npm)
+- ...
+- article: [best programming languages](http://www.sitepoint.com/whats-best-programming-language-learn-2015/)
+- [tiobe index](http://www.tiobe.com/tiobe-index/)
 
 
 ---
@@ -129,7 +117,7 @@ https://github.com/gruppjo/sae-webdev
 
 ---
 
-### Why not?
+## Why not?
 
 Compilation vs. Interpretation
 
@@ -142,36 +130,52 @@ Begriffe: Interpreter, Compiler, Just in Time Compilation, Assembler, Instructio
 
 - Tools:
 	- [git](https://git-scm.com/downloads)
-
-- Editors:
-	- [atom](https://atom.io/) (free, open source, web technologies)
-	- [sublime](http://www.sublimetext.com/3) (free, closed, c)
+- Editors (choose one):
+	- [atom](https://atom.io/) (by Github: free, open source, web technologies)
+	- [visual studio code](https://code.visualstudio.com/) (by Windows)
+	- [sublime text](http://www.sublimetext.com/3) (free, closed, c)
 
 ---
 
 ## Setup
 
-- Browsers:
+- Browsers (choose one):
 	- [chrome](https://www.google.com/chrome/browser/desktop/index.html)
 	- [canary](https://www.google.de/chrome/browser/canary.html)
 	- [firefox](https://www.mozilla.org/en-US/firefox/new/)
-
 - Ecosystem:
 	- [node](https://nodejs.org/download/)
 
-```
-npm install --global bower gulp yo jshint generator-gulp-webapp
-```
+---
+
+## Basics
+
+#### Technologies:
+- [Git](https://git-scm.com/) = distributed version control system
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) (Hypertext Markup Language) = structure and content
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) (Cascading Style Sheet) = style and appearance
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) = behavior
 
 ---
 
-## Setup
-Atom configuration (JS Stylechecks)
+## Basics
+#### Ecosystem:
+- [node.js](https://nodejs.org/en/) = JavaScript runtime environment outside the browser
+- [npm](https://www.npmjs.com/) = node package manager (install/distribute awesome stuff)
+- [bower](http://bower.io/) = browser package manager (jQuery, ...)
+- [gulp](http://gulpjs.com/) = task runner
+- [yo/yeoman](http://yeoman.io/) = run generators in command line
+- [generator-webapp](https://github.com/yeoman/generator-webapp) = boilerplate for web application
 
+---
+
+## Setup Generator-Webapp
+#### Run in terminal
+```sh
+npm install --global yo gulp-cli bower
 ```
-npm install --global eslint
-apm install linter
-apm install linter-jshint
+```sh
+npm install --global generator-webapp
 ```
 
 ---
@@ -187,35 +191,34 @@ apm install linter-jshint
 
 ---
 
-## Basics
-
-- Technologies:
-	- HTML (Hypertext Markup Language) = structure and content
-	- CSS (Cascading Style Sheet) = style and appearance
-	- JavaScript = behavior
-
----
-
-## Basics
-
-- Ecosystem:
-	- node.js = JavaScript runtime environment outside the browser
-	- npm = node package manager (install/distribute awesome stuff)
-	- [bower](http://bower.io/) = browser package manager (jQuery, ...)
-	- [gulp](http://gulpjs.com/) / [grunt](http://gruntjs.com/) = task runner
-	- [yo](https://github.com/yeoman/yo) = boilerplate cli / generators
-	- [generator-gulp-webapp](https://github.com/yeoman/generator-gulp-webapp) = boilerplate for web application
-	- [jshint](http://jshint.com/) = enforce code styles
+## Tasks 1
+1. Setup a new project in a new folder: **lesson1/**
+	- use [generator-webapp](https://github.com/yeoman/generator-webapp)
+	- you don't need Modernizr, select Test Driven Development (TDD)
+2. You're done when you see this in your browser:
+<img width="400" alt="screen shot 2016-08-08 at 18 34 29" src="https://cloud.githubusercontent.com/assets/1370779/17488373/694a3f7e-5d99-11e6-993e-97c37787fea7.png">
+3. Change the **'Allo, 'Allo!** text to your name. e.g. **Jonathan**
 
 ---
 
-## Hands-on
+## Tasks 2
+1. Do 15 Minute Git Tutorial - [https://try.github.io](https://try.github.io)
+2. Create Github account
+3. [Create new repository](https://github.com/new) called **lesson1**
+4. push the project you just created to this repository
+
+---
+
+## Task 3
 
 - codeacademy - [make a website](https://www.codecademy.com/skills/make-a-website)
-- experiment with the - [generator-gulp-webapp](https://github.com/yeoman/generator-gulp-webapp)
 
 ---
 
 ## Resources
-
+#### Websites
+Mozilla Developer Network - https://developer.mozilla.org/
+Google Developers - https://developers.google.com
+#### Courses
 7hrs [HTML/CSS](https://www.codecademy.com/en/tracks/web) on code academy
+[Gitreal](http://gitreal.codeschool.com/) course on CodeSchool

@@ -15,7 +15,7 @@ reveal-md --theme solarized
 ## run examples
 
 ```sh
-# in directory of example
+# in directory of lesson
 npm install
 bower install
 gulp serve
