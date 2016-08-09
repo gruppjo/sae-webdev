@@ -198,6 +198,8 @@ npm install --global generator-webapp
 2. You're done when you see this in your browser:
 <img width="400" alt="screen shot 2016-08-08 at 18 34 29" src="https://cloud.githubusercontent.com/assets/1370779/17488373/694a3f7e-5d99-11e6-993e-97c37787fea7.png">
 3. Change the **'Allo, 'Allo!** text to your name. e.g. **Jonathan**
+	- hint: **index.html**
+	- we'll discuss the project file structure in a minute
 
 ---
 
@@ -205,13 +207,36 @@ npm install --global generator-webapp
 1. Do 15 Minute Git Tutorial - [https://try.github.io](https://try.github.io)
 2. Create Github account
 3. [Create new repository](https://github.com/new) called **lesson1**
-4. push the project you just created to this repository
+4. push the project you just created to that repository
+```sh
+# in project folder
+git init # initialize git
+git add . # add all files
+git commit -m "project setup" # create commit
+git remote add origin <path to your git repo> # add origin
+git push -u origin master # push master branch to origin
+```
 
 ---
 
 ## Task 3
 
-- codeacademy - [make a website](https://www.codecademy.com/skills/make-a-website)
+- Free parts of Codeacademy - [make a website](https://www.codecademy.com/skills/make-a-website)
+
+---
+
+## Task 4 (30 minutes)
+<img width="200" alt="screen shot 2016-08-08 at 18 34 29" src="http://officialhuskylovers.com/wp-content/uploads/2016/01/fights.jpg">
+
+- Create your own page in your project: **index2.html** using what you just learned
+- Choose something you like e.g. **cute puppies**
+	- couple of **HTML elements**, **CSS** and **Bootstrap components**
+- Create about 3 to 10 logical, useful commits and push these to your repository on GitHub
+```sh
+git add .
+git commit -m "useful message"
+git push origin master
+```
 
 ---
 
