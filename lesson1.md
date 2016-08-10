@@ -1,16 +1,16 @@
 
-# Lesson 1
-#### Hello, HTML, CSS
+# 2D & 3D GameDevelopment
+### in the Browser
 
 ---
 
 ## Agenda
 
 1. [Hello!](#hello)
-2. [Expectations](#expectations)
-3. [Roadmap](#roadmap)
-4. [Agreements](#agreements)
-4. [Lesson 1](#lesson-1)
+2. [Expectations & Agreements](#expectations)
+3. [Why web?](#why-web)
+4. [In this course](#in-this-course)
+4. [Lesson 1](#lesson-1) - Git, HTML, CSS, Generators
 
 ---
 
@@ -44,8 +44,9 @@
 - your development experience?
 	- web? Git/GitHub? Testing?
 	- other: c++/c/c#/java, OO, unity, maths&physics, opengl/directx, shaders, ...
+	- terminal?
 - English?
-- your expectations
+- your motivation/expectation?
 - web dev terms? => mindmap
 
 ---
@@ -58,27 +59,12 @@
 
 ---
 
-## Roadmap
-- lesson 1 through 3: HTML, CSS, JavaScript
-- lesson 4, 5: WebGL, Three.js, Phaser.io
-
----
-
 ## Agreements
 
 - small lectures, a lot of hands-on
 - breaks?
 - interrupt at any time: questions & ideas welcome
 - complain, don't waste
-
----
-
-# Lesson 1 - HTML, CSS
-
-```
-https://github.com/gruppjo/sae-webdev
-```
-![QR Code](https://cloud.githubusercontent.com/assets/1370779/17484680/56889c4a-5d8b-11e6-81ab-351c07b52edd.jpeg)
 
 ---
 
@@ -90,7 +76,7 @@ https://github.com/gruppjo/sae-webdev
 - backend & flexible UIs
 - from small hack to large scale applications
 - the whole ecosystem is JavaScript (this presentation, editors, CLI tools, ...)
-- [Github](https://github.com/): almost everything's open source
+- [GitHub](https://github.com/): almost everything's open source
 
 ---
 
@@ -173,8 +159,40 @@ https://github.com/gruppjo/sae-webdev
 
 Compilation vs. Interpretation
 
-<img src="https://cloud.githubusercontent.com/assets/1370779/9197708/f1ab2e9a-4036-11e5-9ea4-c4049a38984a.jpg" height="400px"><br>
+<img src="https://cloud.githubusercontent.com/assets/1370779/9197708/f1ab2e9a-4036-11e5-9ea4-c4049a38984a.jpg" height="400px"><img src="https://cloud.githubusercontent.com/assets/1370779/17553939/c00d5fce-5f08-11e6-9579-62c06cd58c80.jpg" height="400px">
 Begriffe: Interpreter, Compiler, Just in Time Compilation, Assembler, Instruction Set
+
+---
+
+## In this course
+
+#### You will learn about
+- [Git](https://git-scm.com/) = distributed version control system
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) (Hypertext Markup Language) = structure and content
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) (Cascading Style Sheet) = style and appearance
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) = behavior
+- [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API),  [Canvas2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D) = 3D & 2D APIs
+- [Phaser.io](http://phaser.io/), [Three.js](http://threejs.org/) and others = libraries and engines
+
+---
+
+## Roadmap
+- **lesson 1 through 3**: Foundations - HTML, CSS, JavaScript
+- **lesson 4, 5**: WebGL, Three.js, Phaser.io, ...
+
+---
+
+## Slides & Sources
+```
+https://github.com/gruppjo/sae-webdev
+```
+![QR Code](https://cloud.githubusercontent.com/assets/1370779/17484680/56889c4a-5d8b-11e6-81ab-351c07b52edd.jpeg)
+
+
+---
+
+# Lesson 1
+#### Git, HTML, CSS, Generators
 
 ---
 
@@ -196,21 +214,35 @@ Begriffe: Interpreter, Compiler, Just in Time Compilation, Assembler, Instructio
 	- [canary](https://www.google.de/chrome/browser/canary.html)
 	- [firefox](https://www.mozilla.org/en-US/firefox/new/)
 - Ecosystem:
-	- [node](https://nodejs.org/download/)
+	- [node](https://nodejs.org/en/)
 
 ---
 
-## Basics
 
-#### Technologies:
-- [Git](https://git-scm.com/) = distributed version control system
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) (Hypertext Markup Language) = structure and content
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) (Cascading Style Sheet) = style and appearance
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) = behavior
+## Task 1 - Git & Terminal (30 Minutes)
+1. Do 15 Minute Git Tutorial - [https://try.github.io](https://try.github.io)
+2. In command line create new **folder**, a new **file**
+2. Initialize git repo, add file, commit
+2. Create [GitHub account](https://github.com/join)) and [create new repository](https://github.com/new) called **lesson1-task1**
+4. push the project you just created to that repository
+```sh
+# in project folder
+git init # initialize git
+git add . # add all files
+git commit -m "project setup" # create commit
+git remote add origin <path to your git repo> # add origin
+git push -u origin master # push master branch to origin
+```
 
 ---
 
-## Basics
+## Task 2 - HTML & CSS (60 Minutes)
+
+- The free parts of Codeacademy - [make a website](https://www.codecademy.com/skills/make-a-website)
+
+---
+
+## Generator Fundamentals
 #### Ecosystem:
 - [node.js](https://nodejs.org/en/) = JavaScript runtime environment outside the browser
 - [npm](https://www.npmjs.com/) = node package manager (install/distribute awesome stuff)
@@ -243,46 +275,24 @@ npm install --global generator-webapp
 
 ---
 
-## Tasks 1
+## Task 3 - generator-webapp (15 Minutes)
 1. Setup a new project in a new folder: **lesson1/**
 	- use [generator-webapp](https://github.com/yeoman/generator-webapp)
-	- you don't need Modernizr, select Test Driven Development (TDD)
+	- you don't need Modernizr, select TDD
 2. You're done when you see this in your browser:
-<img width="400" alt="screen shot 2016-08-08 at 18 34 29" src="https://cloud.githubusercontent.com/assets/1370779/17488373/694a3f7e-5d99-11e6-993e-97c37787fea7.png">
+<img width="300" alt="screen shot 2016-08-08 at 18 34 29" src="https://cloud.githubusercontent.com/assets/1370779/17488373/694a3f7e-5d99-11e6-993e-97c37787fea7.png">
 3. Change the **'Allo, 'Allo!** text to your name. e.g. **Jonathan**
 	- hint: **index.html**
-	- we'll discuss the project file structure in a minute
+	- we'll discuss the **project file structure** in a minute
 
 ---
 
-## Tasks 2
-1. Do 15 Minute Git Tutorial - [https://try.github.io](https://try.github.io)
-2. Create Github account
-3. [Create new repository](https://github.com/new) called **lesson1**
-4. push the project you just created to that repository
-```sh
-# in project folder
-git init # initialize git
-git add . # add all files
-git commit -m "project setup" # create commit
-git remote add origin <path to your git repo> # add origin
-git push -u origin master # push master branch to origin
-```
-
----
-
-## Task 3
-
-- Free parts of Codeacademy - [make a website](https://www.codecademy.com/skills/make-a-website)
-
----
-
-## Task 4 (30 minutes)
+## Task 4 - your own webpage (30 Minutes)
 <img width="200" alt="screen shot 2016-08-08 at 18 34 29" src="http://officialhuskylovers.com/wp-content/uploads/2016/01/fights.jpg">
 
-- Create your own page in your project: **index2.html** using what you just learned
-- Choose something you like e.g. **cute puppies**
-	- couple of **HTML elements**, **CSS** and **Bootstrap components**
+- Create your own page in your project in the **index.html**
+- About a topic you like e.g. **cute puppies**
+	- Add a couple of **HTML elements**, **CSS** and **Bootstrap components**
 - Create about 3 to 10 logical, useful commits and push these to your repository on GitHub
 ```sh
 git add .
@@ -294,8 +304,9 @@ git push origin master
 
 ## Resources
 #### Websites
-Mozilla Developer Network - https://developer.mozilla.org/
+Mozilla Developer Network - https://developer.mozilla.org/  
 Google Developers - https://developers.google.com
-#### Courses
-7hrs [HTML/CSS](https://www.codecademy.com/en/tracks/web) on code academy
+#### Courses/Guides
+[GitHub Guides](https://guides.github.com/)  
+7hrs [HTML/CSS](https://www.codecademy.com/en/tracks/web) on code academy  
 [Gitreal](http://gitreal.codeschool.com/) course on CodeSchool
