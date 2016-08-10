@@ -17,7 +17,7 @@ var printLessonExamples = function () {
   var JonsNumber = 123874.123;
   Math.JonsNumber = JonsNumber;
   console.log(Math.JonsNumber);
-  Math.PI = 3;
+  // Math.PI = 3;
   console.log(2*Math.PI);
 
 
@@ -104,13 +104,13 @@ var printLessonExamples = function () {
 };
 
 // EVENT DRIVEN
-window.onload = function () {
+window.addEventListener('load', function () {
   printLessonExamples();
   setTimeout(function () {
     ooJS();
     awesomeness();
   }, 1100);
-};
+}, false);
 
 var ooJS = function () {
   console.log('------- OOJS -----');

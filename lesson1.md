@@ -279,7 +279,7 @@ npm install --global generator-webapp
 ## Task 3 - generator-webapp (15 Minutes)
 1. Setup a new project in a new folder: **lesson1/**
 	- use [generator-webapp](https://github.com/yeoman/generator-webapp)
-	- you don't need Modernizr, select TDD
+	- you don't need Sass or Modernizr; select TDD for DSL
 2. You're done when you see this in your browser:
 <img width="300" alt="screen shot 2016-08-08 at 18 34 29" src="https://cloud.githubusercontent.com/assets/1370779/17488373/694a3f7e-5d99-11e6-993e-97c37787fea7.png">
 3. Change the **'Allo, 'Allo!** text to your name. e.g. **Jonathan**

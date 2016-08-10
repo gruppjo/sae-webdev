@@ -20,4 +20,4 @@ npm install
 bower install
 gulp serve
 ```
-For further instructions (dependencies, etc.) see `../lesson1.md`
+For further instructions (dependencies, etc.) see `./lesson1.md`

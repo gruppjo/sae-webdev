@@ -6,7 +6,7 @@
 ## What is JavaScript
 
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) (implementation)
-- [ECMAScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources) (standard, currently ES5/6)
+- [ECMAScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources) (standard, currently ES5/6/7)
 
 ---
 
@@ -25,13 +25,12 @@
 ---
 
 ## More features
-
-- event-driven
 - object oriented (prototypes instead of classes)
   - object literal
   - functional: creator function (inheritance via other creator function)
   - prototypal: Object.create (inheritance via parameter)
   - pseudoclassical: constructor function (inheritance via .prototype)
+- event-driven (callbacks!)
 - => awesomeness
   - implement privacy (creator function)
   - implement ducktyping (fireize)
@@ -39,10 +38,18 @@
 
 ---
 
+## Rapidly changing
+- ES6 (ECMAScript 6) brings a ton of [new features](https://github.com/lukehoban/es6features)
+  - arrow functions, classes, let & const, iterators, modules, promises, ...
+- [Typescript](https://www.typescriptlang.org/) brings types to JavaScript
+=> JS!=JS - learn a strong basis, know what you're doing
+
+---
+
 ## Execution
 
-- in the node console. Type: `node`
-- as node script. Type `node myscript.js`
+- in the node console. Type: **node**
+- as node script. Type **node myscript.js**
 - in the browser
   - in the console (open developer tools)
   - at parse time (see `lesson2JS/app/index.html line 55`)
@@ -59,7 +66,7 @@ lesson2JS/app/index.html (starting line 54)
 
 internal script:
 
-```
+```js
   <script>
   // code here
   </scrip>
