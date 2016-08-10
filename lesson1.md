@@ -107,13 +107,65 @@ https://github.com/gruppjo/sae-webdev
 - article: [best programming languages](http://www.sitepoint.com/whats-best-programming-language-learn-2015/)
 - [tiobe index](http://www.tiobe.com/tiobe-index/)
 
+---
+
+## For gaming?
+
+- easy distribution, cross platform, one language
+- APIs
+	- [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) HW-accelarated 3D (based on OpenGL)
+	- [Canvas2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D) HW-accelerated 2D
+	- no Flash! (plugin, proprietary, closed-source, vulnerable, mobile)
+- Demos: [rainforest](http://rainforest.arkivert.no/), [bananabread](https://github.com/kripken/BananaBread/), [phaser.io](http://phaser.io/examples/v2/category/games)
+- Unity [WebGL export](https://docs.unity3d.com/Manual/webgl-gettingstarted.html)
+- Unreal 4 [WebGL demo](https://blog.mozilla.org/blog/2014/03/12/mozilla-and-epic-preview-unreal-engine-4-running-in-firefox/)
+
+
+---
+
+## More demos:
+- rainforest - http://rainforest.arkivert.no/#kart
+- collections
+	- mozilla - https://developer.mozilla.org/en-US/docs/Web/Demos_of_open_web_technologies
+	- css design awards - http://www.cssdesignawards.com/articles/30-best-webgl-sites-for-2015/263/
+	- hongkiat - http://www.hongkiat.com/blog/webgl-chrome-experiments/
+	- css nectar - http://cssnectar.com/css-gallery/nominees/site-features/webgl/
+- phaser examples: http://phaser.io/examples
+- webgl examples
+	- bananabread https://developer.mozilla.org/de/demos/detail/bananabread
+	- rome http://www.ro.me/
+	- piano http://touchpianist.com/
+	- globe https://www.chromeexperiments.com/globe
+	- stars http://stars.chromeexperiments.com/
+	- jellyfish http://akirodic.com/p/jellyfish/
+	- fluid https://developer.mozilla.org/de/demos/detail/fluid
+	- world flights http://www.senchalabs.org/philogl/PhiloGL/examples/worldFlights/
+	- image filter http://evanw.github.io/webgl-filter/
+	- paper shader https://developer.mozilla.org/de/demos/detail/cross-hatching-glsl-shader
+	- orbits visualizer http://iacopoapps.appspot.com/hopalongwebgl/
+	- particles http://oos.moxiecode.com/js_webgl/particles_morph/
+	- particles (firefox) http://empaempa.github.io/GLOW/examples/complicated/
+	- more particles - http://iacopoapps.appspot.com/hopalongwebgl/
+	- surface http://lab.aerotwist.com/webgl/surface/
+	- cars http://alteredqualia.com/three/examples/materials_cars.html
+	- ecosphere http://www.stinkdigital.com/work/ecosphere/
+	- more resources
+		- chrome experiments - https://www.chromeexperiments.com/webgl
+		- mozilla demos - https://developer.mozilla.org/de/demos/
+		- 1stwebdesigner - http://www.1stwebdesigner.com/webgl-examples-and-demos/
+		- hongkiat list - http://www.hongkiat.com/blog/webgl-chrome-experiments/
+- canvas examples
+	- cross code - http://www.cross-code.com/en/start
+	- curious expedition - http://www.curious-expedition.com/
 
 ---
 
 ## Why not?
-- [performance!](https://attractivechaos.github.io/plb/) (pretty fast but still not compiled)
+- [performance](https://attractivechaos.github.io/plb/), (pretty fast but still not compiled)
+	- However near native performance with: [Web Assembly](https://medium.com/javascript-scene/what-is-webassembly-the-dawn-of-a-new-era-61256ec5a8f6#.z57bpvpvz), [Emscripten](https://github.com/kripken/emscripten), [asm.js](http://asmjs.org/)
 - security/reliability (business applications)
 	- a lot you can do wrong, no compiler, ...
+- ecosystem not as established as C/C++/C# in gaming
 
 ---
 
