@@ -54,6 +54,7 @@
 ## Me
 
 1. fun :)
+2. be your guide, in this ever-changing tutorial-flooded world
 2. teach you how to teach yourself
 3. hands-on: play & experiment
 
@@ -86,8 +87,8 @@
 - websites
 - web & multimedia applications (3D, games, video, audio, realtime, ...)
 - backends/middleware
-- mobile apps
-- desktop apps
+- mobile apps via cordova, react native, ...
+- desktop apps via electron
 - command line tools (via node and npm)
 - ...
 - article: [best programming languages](http://www.sitepoint.com/whats-best-programming-language-learn-2015/)
@@ -282,8 +283,8 @@ npm install --global generator-webapp
 2. You're done when you see this in your browser:
 <img width="300" alt="screen shot 2016-08-08 at 18 34 29" src="https://cloud.githubusercontent.com/assets/1370779/17488373/694a3f7e-5d99-11e6-993e-97c37787fea7.png">
 3. Change the **'Allo, 'Allo!** text to your name. e.g. **Jonathan**
-	- hint: **index.html**
-	- we'll discuss the **project file structure** in a minute
+	- hint: **app/index.html**
+	- project file structure: **app/scripts/main.js**, **app/styles/main.scss**
 
 ---
 
