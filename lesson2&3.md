@@ -7,10 +7,50 @@
 
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) (implementation)
 - [ECMAScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_Resources) (standard, currently ES5/6/7)
+- JavaScript (JS) completely unrelated to Java
+- developed in 1995 by [Brendan Eich](https://de.wikipedia.org/wiki/JavaScript) in [10 days](https://www.w3.org/community/webed/wiki/A_Short_History_of_JavaScript)
 
 ---
 
-## Features
+## Execution
+
+- in the node console. Type: **node**
+- as node script. Type **node myscript.js**
+- in the browser
+  - in the console (open developer tools)
+  - at parse time (see `lesson2JS/app/index.html line 93`)
+  - at event (see `lesson2JS/app/index.html line 94`)
+
+---
+
+## Including scripts in HTML
+
+Examples in:
+```
+lesson2JS/app/index.html (starting line 92)
+```
+
+internal script:
+
+```js
+  <script>
+  // code here
+  </scrip>
+```
+
+external script:
+
+```
+<script src="path/to/file"></scrip>
+```
+
+---
+
+## Live coding session
+
+---
+
+## Versatile scripting language
 
 - memory managed
 - interpreted (just in time compilation)
@@ -30,11 +70,18 @@
   - functional: creator function (inheritance via other creator function)
   - prototypal: Object.create (inheritance via parameter)
   - pseudoclassical: constructor function (inheritance via .prototype)
-- event-driven (callbacks!)
+- event-driven/asynchronous (user, backend, callbacks!)
+
+---
+
+## Why so successful?
+- many reasons to hate JavaScript
 - => awesomeness
   - implement privacy (creator function)
   - implement ducktyping (fireize)
 - => much more sophisticated than other languages
+- build your own new language concepts (promises, ...)
+  - community driven rather than standard driven
 
 ---
 
@@ -42,41 +89,30 @@
 - ES6 (ECMAScript 6) brings a ton of [new features](https://github.com/lukehoban/es6features)
   - arrow functions, classes, let & const, iterators, modules, promises, ...
 - [Typescript](https://www.typescriptlang.org/) brings types to JavaScript
-=> JS!=JS - learn a strong basis, know what you're doing
+=> JS!=JS - learn a strong basis, know what you're doing!
 
 ---
 
-## Execution
-
-- in the node console. Type: **node**
-- as node script. Type **node myscript.js**
-- in the browser
-  - in the console (open developer tools)
-  - at parse time (see `lesson2JS/app/index.html line 55`)
-  - at event (see `lesson2JS/app/index.html line 56`)
+## Task 1 (30 Minutes)
+- **main.js** write a function that, given a string as argument
+  - splits all the words (delimited by space)
+  - counts all the words
+  - counts all the characters in a total sum
+  - prints each word to the console
+  - prints the whole sentence reversed
+  - executes when everything's done loading (window.load event)
+- trusted sources:
+  - Mozilla Developer Network - https://developer.mozilla.org/
+  - Stackoverflow - http://stackoverflow.com/
 
 ---
 
-## Including scripts in HTML
-
-Examples in:
-```
-lesson2JS/app/index.html (starting line 54)
-```
-
-internal script:
-
-```js
-  <script>
-  // code here
-  </scrip>
-```
-
-external script:
-
-```
-<script src="path/to/file"></scrip>
-```
+## Task 2 (30 Minutes)
+- create an object that has this function as a property
+- implement this functionality:
+  - acquire a sentence by the user
+  - analyse it on a button press
+  - show the results on the page
 
 ---
 

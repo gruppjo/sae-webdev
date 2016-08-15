@@ -1,7 +1,39 @@
 var printLessonExamples = function () {
   console.log('Lesson 2 - JavaScript');
+  // FUNDAMENTALS
+  console.log('------- FUNDAMENTALS -----');
+  // literals
+  var number = 2;
+  var anotherNumber = 5;
+  var string = 'Hi SAE Game Programming Course';
+  var array = ['string', 5, 27];
+  var object = {
+
+  };
+  // constructors
+  var anotherArray = new Array(1, 2, 'Hi there', {property: 'value'});
+  var anotherNumber = new Number(2.343);
+  var anotherString = new String('hello');
+  // access array/object properties
+  // operators
+  // control flow
+  // loops
+  // functions, flexible arguments, dynamically typed
+
+  // DOM/HTML INTERACTION
+  var buttonEl = document.getElementById('button');
+  buttonEl.addEventListener('click', function () {
+    var sentenceEl = document.getElementById('sentence');
+    var sentence = sentenceEl.value;
+    var lengthEl = document.getElementById('length');
+    lengthEl.innerHTML = sentence.length;
+  });
 
   // DYNAMICALLY TYPED
+  // change variables type
+  // function parameters
+  // add/remove properties from objects
+  // SCOPE
   console.log('------- DYNAMIC -----');
   var number = 'hallo';
   console.log(number, typeof number);
@@ -164,6 +196,11 @@ var ooJS = function () {
   console.log(cat2);
   cat2.eat();
   cat2.meow();
+  cat.jump = function () {
+    console.log('jumps');
+  };
+  cat2.jump();
+  console.log(cat2.jump());
 
   console.log('------- PSEUDOCLASSICAL -----');
   var Animal = function (name) {

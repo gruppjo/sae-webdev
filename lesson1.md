@@ -53,10 +53,10 @@
 
 ## Me
 
-1. fun :)
 2. be your guide, in this ever-changing tutorial-flooded world
 2. teach you how to teach yourself
 3. hands-on: play & experiment
+1. fun :)
 
 ---
 
@@ -243,17 +243,6 @@ git push -u origin master # push master branch to origin
 
 ---
 
-## Generator Fundamentals
-#### Ecosystem:
-- [node.js](https://nodejs.org/en/) = JavaScript runtime environment outside the browser
-- [npm](https://www.npmjs.com/) = node package manager (install/distribute awesome stuff)
-- [bower](http://bower.io/) = browser package manager (jQuery, ...)
-- [gulp](http://gulpjs.com/) = task runner
-- [yo/yeoman](http://yeoman.io/) = run generators in command line
-- [generator-webapp](https://github.com/yeoman/generator-webapp) = boilerplate for web application
-
----
-
 ## Setup Generator-Webapp
 #### Run in terminal
 ```sh
@@ -285,6 +274,29 @@ npm install --global generator-webapp
 3. Change the **'Allo, 'Allo!** text to your name. e.g. **Jonathan**
 	- hint: **app/index.html**
 	- project file structure: **app/scripts/main.js**, **app/styles/main.scss**
+
+---
+
+## What does it do?
+- wires together HTML, CSS ([SASS](http://sass-lang.com/)), JavaScript
+- additionally: [Bootstrap](http://getbootstrap.com/), [Babel](https://babeljs.io/), ...
+- awesome tools: livereload, ...
+- important files
+	- **app/index.html**
+	- **app/scripts/main.js**
+	- **app/styles/main.scss**
+- important commands
+	- **gulp serve**
+
+---
+
+#### Ecosystem:
+- [node.js](https://nodejs.org/en/) = JavaScript runtime environment outside the browser
+- [npm](https://www.npmjs.com/) = node package manager (install/distribute awesome stuff)
+- [bower](http://bower.io/) = browser package manager (jQuery, ...)
+- [gulp](http://gulpjs.com/) = task runner
+- [yo/yeoman](http://yeoman.io/) = run generators in command line
+- [generator-webapp](https://github.com/yeoman/generator-webapp) = boilerplate for web application
 
 ---
 
