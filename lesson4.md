@@ -14,7 +14,6 @@
 
 ## WebGL
 
-- WebGL
 - [WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) (Web Graphics Library)
   - brings 3D to the Web
   - exports from [Unreal Engine 4](https://blog.mozilla.org/blog/2015/02/24/unreal-engine-4-7-binary-release-includes-html5-export-3/) and [Unity 5](https://blog.mozilla.org/blog/2015/03/03/unity-5-ships-and-brings-one-click-webgl-export-to-legions-of-game-developers/)
@@ -26,9 +25,19 @@
 
 ## WebGL Hands-on
 
-1. WebGL on [mdn](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)
+1. WebGL Documentation [mdn](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)
 2. [tutorial](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial) on mdn
 3. ([learning webgl](http://learningwebgl.com/blog/?page_id=1217) lesson 1-3)
+
+---
+
+## MDN Tutorial
+
+- new project with **yo webapp**
+  - no boostrap, no modernizr, no sass, BDD/TDD (doesn't matter)
+- create new git repo and push to new repo on Github
+- start with [tutorial](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial)
+
 
 ---
 
