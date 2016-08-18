@@ -132,7 +132,11 @@ https://www.codecademy.com/en/tracks/javascript-combined
 - Objects I - Introduction to Objects I
 - Objects II - Introduction to Objects II
 
-Alternative: http://javascript-roadtrip.codeschool.com/levels/1/challenges/3
+Alternative: http://javascript-roadtrip.codeschool.com
+
+---
+
+## jQuery?
 
 ---
 
