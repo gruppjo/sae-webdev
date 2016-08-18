@@ -48,6 +48,10 @@
 ---
 
 ## More Resources
+- full courses
+  - udacity [HTML 5 Game Dev](https://de.udacity.com/course/html5-game-development--cs255/)
+  - udacity [webgl](https://www.udacity.com/course/interactive-3d-graphics--cs291)
+  - coursera [webgl](https://www.coursera.org/course/webgl)
 - more webgl
  - [learning webgl](http://learningwebgl.com/blog/?page_id=1217)
  - [webgl fundamentals](http://webglfundamentals.org/)
@@ -58,6 +62,3 @@
 - shaders
   - aerotwist [shaders](https://aerotwist.com/tutorials/an-introduction-to-shaders-part-1/)
   - lighthouse3d [glsl core](http://www.lighthouse3d.com/tutorials/glsl-tutorial/glsl-core-tutorial-index/)
-- full webgl courses
-  - udacity [webgl](https://www.udacity.com/course/interactive-3d-graphics--cs291)
-  - coursera [webgl](https://www.coursera.org/course/webgl)

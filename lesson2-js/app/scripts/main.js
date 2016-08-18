@@ -1,5 +1,81 @@
 var printLessonExamples = function () {
   console.log('Lesson 2 - JavaScript');
+
+  console.log('Hi Chris, from the main.js');
+
+  // variablen, literals
+  var number = 2;
+  var string = 'Hallo';
+  console.log(number, string);
+  var array = ['ha', 2, 'hu', 3];
+  console.log(array);
+  var object = {};
+  object.name = 'hi';
+  console.log(object);
+
+  // constructors
+  var anotherNumber = new Number(5);
+  var anotherString = new String('hi');
+  var anotherArray = new Array('hi', 2, 7);
+  console.log(anotherNumber, anotherString, anotherArray);
+
+  // access properties
+  console.log(object.name, array[1]);
+
+  // operators
+  console.log(5 + 5, 7 - 2, 7 / 3, 7 * 5, 'Hi ' + 'Jonathan');
+  console.log(false || false, true && true);
+
+  // control flow
+  if (number) {
+    console.log('got number');
+  }
+  else {
+    console.log('no number');
+  }
+  for (var i = 0; i < 10; i++) {
+    console.log(i);
+  }
+
+  // dynmically typed
+  var a = 1;
+  a = 'Hallo!!!';
+  console.log(a);
+  var o = {};
+  o.name = 'Jonathan';
+  o.height = 1.73;
+  console.log(o);
+  o.name = 'Chris';
+  console.log(o);
+
+  var npc = function (name, height) {
+    return {
+      name: name,
+      height: height,
+      sayName: function () {
+        console.log('I am ' + this.name);
+      }
+    };
+  };
+  var npc1 = npc('Jonathan', 1.73);
+  var npc2 = npc('Chris', 1.70);
+  console.log(npc1, npc2);
+  npc1.sayName();
+  npc2.sayName();
+
+  var buttonEl = document.getElementById('button');
+  console.log(buttonEl);
+  var textEl = document.getElementById('text');
+  console.log(textEl);
+  buttonEl.addEventListener('click', function () {
+    textEl.innerHTML = 'Button was clicked';
+  });
+
+
+
+
+
+
   // FUNDAMENTALS
   console.log('------- FUNDAMENTALS -----');
   // literals
@@ -10,6 +86,7 @@ var printLessonExamples = function () {
   var object = {
 
   };
+  object.name = 'hi';
   // constructors
   var anotherArray = new Array(1, 2, 'Hi there', {property: 'value'});
   var anotherNumber = new Number(2.343);
@@ -21,7 +98,7 @@ var printLessonExamples = function () {
   // functions, flexible arguments, dynamically typed
 
   // DOM/HTML INTERACTION
-  var buttonEl = document.getElementById('button');
+  var buttonEl = document.getElementById('button2');
   buttonEl.addEventListener('click', function () {
     var sentenceEl = document.getElementById('sentence');
     var sentence = sentenceEl.value;

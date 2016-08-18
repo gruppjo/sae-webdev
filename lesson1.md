@@ -62,10 +62,13 @@
 
 ## Agreements
 
+- lecture material online
+- high tempo
 - small lectures, a lot of hands-on
-- breaks?
 - interrupt at any time: questions & ideas welcome
 - complain, don't waste
+- breaks?
+
 
 ---
 
@@ -224,7 +227,7 @@ https://github.com/gruppjo/sae-webdev
 1. Do 15 Minute Git Tutorial - [https://try.github.io](https://try.github.io)
 2. In command line create new **folder**, a new **file**
 2. Initialize git repo, add file, commit
-2. Create [GitHub account](https://github.com/join)) and [create new repository](https://github.com/new) called **lesson1-task1**
+2. Create [GitHub account](https://github.com/join) and [create new repository](https://github.com/new) called **lesson1**
 4. push the project you just created to that repository
 ```sh
 # in project folder
@@ -234,12 +237,19 @@ git commit -m "project setup" # create commit
 git remote add origin <path to your git repo> # add origin
 git push -u origin master # push master branch to origin
 ```
+6. Help: Git [Cheat Sheet](https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf)
 
 ---
 
-## Task 2 - HTML & CSS (60 Minutes)
+## Task 2 - HTML & CSS (75 Minutes)
 
 - The free parts of Codeacademy - [make a website](https://www.codecademy.com/skills/make-a-website)
+	- Lesson: Site Structure
+	- Lesson: A closer look at CSS
+	- Lesson: Boundaries and Space
+	- Lesson: Building with Bootstrap
+
+Alternative: http://campus.codeschool.com/courses/front-end-foundations/contents
 
 ---
 
@@ -265,15 +275,52 @@ npm install --global generator-webapp
 
 ---
 
-## Task 3 - generator-webapp (15 Minutes)
-1. Setup a new project in a new folder: **lesson1/**
-	- use [generator-webapp](https://github.com/yeoman/generator-webapp)
+## Task 3 - generator-webapp (pt. 1)
+1. Setup a new project in your git repository in: **lesson1/**
 	- you don't need Sass or Modernizr; select TDD for DSL
+```sh
+yo webapp
+```
+2. Then run:
+```sh
+gulp serve
+```
+
+---
+
+## Task 3 - (pt. 2)
 2. You're done when you see this in your browser:
 <img width="300" alt="screen shot 2016-08-08 at 18 34 29" src="https://cloud.githubusercontent.com/assets/1370779/17488373/694a3f7e-5d99-11e6-993e-97c37787fea7.png">
 3. Change the **'Allo, 'Allo!** text to your name. e.g. **Jonathan**
 	- hint: **app/index.html**
-	- project file structure: **app/scripts/main.js**, **app/styles/main.scss**
+
+---
+
+## Ecosystem:
+- [node.js](https://nodejs.org/en/) = JavaScript runtime environment outside the browser
+- [npm](https://www.npmjs.com/) = node package manager (install/distribute awesome stuff)
+- [bower](http://bower.io/) = browser package manager (jQuery, ...)
+- [gulp](http://gulpjs.com/) = task runner
+- [yo/yeoman](http://yeoman.io/) = run generators in command line
+- [generator-webapp](https://github.com/yeoman/generator-webapp) = boilerplate for web application
+
+---
+
+## How does it work
+- node.js installs together with npm
+- with npm you install globally on your machine
+	- bower, gulp, yo, generator-webapp, or other generators
+- set up a new project in a folder of your choice with yo
+	- yo creates all necessary files
+		- index.html, main.css, main.js
+		- package.json = which npm packages to install
+		- bower.json = which bower packages to install
+		- gulpfiles = how to start livereload, etc...
+	- yo runs **npm install** **bower install** locally (in your directory)
+- running gulp, performs the desired tasks **gulp serve**
+	- sets up livereload server in your directory
+	- watches all files in the directory
+	- upon changes, tells website running in your browser, to refresh itself
 
 ---
 
@@ -284,19 +331,9 @@ npm install --global generator-webapp
 - important files
 	- **app/index.html**
 	- **app/scripts/main.js**
-	- **app/styles/main.scss**
+	- **app/styles/main.css**
 - important commands
 	- **gulp serve**
-
----
-
-#### Ecosystem:
-- [node.js](https://nodejs.org/en/) = JavaScript runtime environment outside the browser
-- [npm](https://www.npmjs.com/) = node package manager (install/distribute awesome stuff)
-- [bower](http://bower.io/) = browser package manager (jQuery, ...)
-- [gulp](http://gulpjs.com/) = task runner
-- [yo/yeoman](http://yeoman.io/) = run generators in command line
-- [generator-webapp](https://github.com/yeoman/generator-webapp) = boilerplate for web application
 
 ---
 
@@ -315,8 +352,23 @@ git push origin master
 
 ---
 
+## Frameworks/Tools
+- [Bootstrap](http://getbootstrap.com/) (CSS only)
+- [Angular.js](https://angularjs.org/) (HTML/JS)
+- [Angular2](https://angular.io/) (HTML/JS)
+- [React.js](https://facebook.github.io/react/) (HTML/JS)
+- [Sass](http://sass-lang.com/), [Less](http://lesscss.org/), ...
+	- extend and compile to css
+- ...
+
+---
+
 ## Resources
+[SSH Access for GitHub](https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration)  
+[Git @ Codeacademy](https://www.codecademy.com/learn/learn-git)
 #### Websites
+Git Documentation - https://git-scm.com/doc  
+Stackoverflow - http://stackoverflow.com/  
 Mozilla Developer Network - https://developer.mozilla.org/  
 Google Developers - https://developers.google.com
 #### Courses/Guides

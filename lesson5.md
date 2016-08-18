@@ -2,6 +2,27 @@
 
 ---
 
+## Engines
+- EaselJS - http://createjs.com/
+- Phaser.io - http://phaser.io/
+- pixi.js - https://github.com/pixijs/pixi.js
+- three.js - http://threejs.org/
+
+source: https://html5gameengine.com/
+
+---
+
+## Choose a fitting task (15 Minutes)
+Based on one of the engines or these tutorials:
+- Mozilla [Breakout Game](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript)
+- Mozilla [Breakout Game with Phaser.io](https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser)
+
+The task:
+- should take you 2.5 hours or more
+- be ready to present what you did and learned!
+
+---
+
 ## Exam preparation
 
 Expectations exam?
@@ -35,6 +56,7 @@ Expectations exam?
 - JS Frameworks
   - jQuery - https://www.codecademy.com/tracks/jquery
   - angular.js - https://www.codecademy.com/courses/learn-angularjs
+  - react - https://www.codeschool.com/courses/powering-up-with-react
 - codeacademy - https://www.codecademy.com/learn
 - udacity - https://www.udacity.com/courses/all
 	- nanodegrees are not free (do courses!)

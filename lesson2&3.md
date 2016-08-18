@@ -12,17 +12,6 @@
 
 ---
 
-## Execution
-
-- in the node console. Type: **node**
-- as node script. Type **node myscript.js**
-- in the browser
-  - in the console (open developer tools)
-  - at parse time (see `lesson2JS/app/index.html line 93`)
-  - at event (see `lesson2JS/app/index.html line 94`)
-
----
-
 ## Including scripts in HTML
 
 Examples in:
@@ -46,7 +35,23 @@ external script:
 
 ---
 
+## Execution
+
+- at parse time (see `lesson2JS/app/index.html line 93`), e.g. **main()**
+- at event (see `lesson2JS/app/index.html line 94`)
+
+---
+
+## Running scripts outside the browser
+- in the node console. Type: **node**
+- as node script. Type **node myscript.js**
+
+---
+
 ## Live coding session
+
+1. watch and learn
+2. try yourself
 
 ---
 
@@ -89,7 +94,7 @@ external script:
 - ES6 (ECMAScript 6) brings a ton of [new features](https://github.com/lukehoban/es6features)
   - arrow functions, classes, let & const, iterators, modules, promises, ...
 - [Typescript](https://www.typescriptlang.org/) brings types to JavaScript
-=> JS!=JS - learn a strong basis, know what you're doing!
+- => JS!=JS - learn a strong basis, know what you're doing!
 
 ---
 
@@ -111,7 +116,7 @@ external script:
 - create an object that has this function as a property
 - implement this functionality:
   - acquire a sentence by the user
-  - analyse it on a button press
+  - analyze it on a button press
   - show the results on the page
 
 ---
@@ -121,6 +126,13 @@ external script:
 ```
 https://www.codecademy.com/en/tracks/javascript-combined
 ```
+- Functions - Introduction to Functions
+- For Loops - Introduction to For Loops
+- Data Structures - Arrays and Objects
+- Objects I - Introduction to Objects I
+- Objects II - Introduction to Objects II
+
+Alternative: http://javascript-roadtrip.codeschool.com/levels/1/challenges/3
 
 ---
 
