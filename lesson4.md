@@ -39,11 +39,32 @@
 - start with [tutorial](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial)
 
 
+## Learning WebGL
+- continue with lessons 1 to 3 from [learning webgl](http://learningwebgl.com/blog/?page_id=1217)
+- program in your own project
+- commit and push
+
+---
+
+## Reference
+
+Extremely through guide to WebGL - http://webglfundamentals.org/
+
 ---
 
 ## Three.js Hands-on
 
 1. tutsplus [threejs](http://code.tutsplus.com/tutorials/webgl-with-threejs-basics--net-35688)
+
+Alternative - http://www.html5rocks.com/en/tutorials/three/intro/
+
+---
+
+## More
+
+1. Shaders - http://www.html5rocks.com/en/tutorials/webgl/shaders/
+2. No tears game dev - http://www.html5rocks.com/en/tutorials/canvas/notearsgame/
+3. Getting started with html5 game dev article - https://hacks.mozilla.org/2013/09/getting-started-with-html5-game-development/
 
 ---
 
