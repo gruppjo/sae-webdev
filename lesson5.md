@@ -68,24 +68,27 @@ Expectations exam?
 ## Feedback
 
 - Learning
-  - Knowledge?
-  - Fun?
-  - Enablement?
+  - Knowledge, Fun, Enablement?
 - Content
-  - HTML/CSS
-  - JS
+  - HTML/CSS, JS
   - WebGL/Three.js/Phaser.io
 - Structure
-  - Exercises?
-  - Lectures?
+  - Exercises, Lectures
 - Lecturer
-  - Motivation
-  - Clarity
+  - Motivation, Clarity
 - Anything else?
 
 ---
 
-## Feedback
+## Feedback ()
+- sehr interaktiv (nicht nur abcoden)
+- gut mit selbstständigen Aufgaben, Lerneffekt
+- gut mit Hausaufgaben
+- guter mix mit hier machen und daheim
+- sehr viel input, bisschen anstrengend
+- redest sehr schnell
+- webgl part bisschen durcheinander
+- lockere atmosphäre
 - viele resourcen
 - available online
 - auch mit anderer Software Probleme (installation nicht, aber halt nachher)

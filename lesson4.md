@@ -38,8 +38,9 @@
 - create new git repo and push to new repo on Github
 - start with [tutorial](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial)
 
+---
 
-## Learning WebGL
+## Learning WebGL (REPLACE!!!!)
 - continue with lessons 1 to 3 from [learning webgl](http://learningwebgl.com/blog/?page_id=1217)
 - program in your own project
 - commit and push
